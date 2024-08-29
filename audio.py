@@ -3,15 +3,12 @@ import os
 import time
 from google.cloud import texttospeech
 from google.api_core.exceptions import RetryError
+import unicodedata
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "service_account.json"
 
 
-def generate_audio_with_retry(text, filename, max_retries=5):
-    if os.path.exists(filename):
-        print(f"Audio file already exists for: {text}")
-        return
-
+def generate_audio(text, filename, max_retries=5):
     client = texttospeech.TextToSpeechClient()
 
     synthesis_input = texttospeech.SynthesisInput(text=text)
@@ -49,8 +46,16 @@ def process_csv():
         reader = csv.DictReader(csvfile)
         for row in reader:
             hebrew_word = row["Niqqud"]
-            filename = f"audio/{hebrew_word}.mp3"
-            generate_audio_with_retry(hebrew_word, filename)
+            normalized_word = unicodedata.normalize("NFC", hebrew_word)
+
+            # Use the normalized word directly for the filename
+            filename = f"audio/{normalized_word}.mp3"
+
+            if not os.path.exists(filename):
+                print(f"Processing: {hebrew_word}")
+                generate_audio(hebrew_word, filename)
+            else:
+                print(f"Skipping existing audio: {hebrew_word}")
 
 
 if __name__ == "__main__":
