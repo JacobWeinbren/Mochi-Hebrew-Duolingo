@@ -115,19 +115,30 @@ def main():
     main_deck = create_deck(main_deck_name)
     decks[main_deck_name] = main_deck
 
+    # Create a dictionary to store skills and their corresponding rows
+    skills = {}
+
     with open(
         "Duolingo Hebrew Vocab COMPLETE - Words.csv", "r", encoding="utf-8"
     ) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
+            skill_order = int(row["שבדית"])
             skill = row["Skill"]
-            deck_name = f"{main_deck_name}::Skills::{skill}"
+            skill_key = f"{skill_order:02d}. {skill}"
 
-            if deck_name not in decks:
-                decks[deck_name] = create_deck(deck_name)
+            if skill_key not in skills:
+                skills[skill_key] = []
+            skills[skill_key].append(row)
 
+    # Process skills in order
+    for skill_key in sorted(skills.keys()):
+        deck_name = f"{main_deck_name}::Skills::{skill_key}"
+        decks[deck_name] = create_deck(deck_name)
+
+        for row in skills[skill_key]:
             fields = {f["name"]: row.get(f["name"], "") for f in HEBREW_MODEL.fields}
-            fields["Tags"] = skill  # Add the skill as a tag
+            fields["Tags"] = skill_key  # Add the skill as a tag
             audio_file = f"audio/{row['Niqqud']}.mp3"
             if os.path.exists(audio_file):
                 fields["Audio"] = f'[sound:{row["Niqqud"]}.mp3]'
