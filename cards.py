@@ -60,6 +60,63 @@ def upload_audio(card_id, audio_file_path):
     return file_name if response and response.get("status") == "success" else None
 
 
+def get_subdecks(parent_deck_id):
+    subdecks = []
+    url = f"{BASE_URL}/decks?parent-id={parent_deck_id}&limit=100"
+    previous_bookmark = None
+
+    while True:
+        response = make_api_request(url, method="GET")
+        if not response:
+            break
+
+        new_subdecks = response.get("docs", [])
+        subdecks.extend(new_subdecks)
+
+        print(f"Retrieved {len(new_subdecks)} subdecks. Total: {len(subdecks)}")
+
+        bookmark = response.get("bookmark")
+        if not bookmark or bookmark == previous_bookmark:
+            break
+        previous_bookmark = bookmark
+        url = (
+            f"{BASE_URL}/decks?parent-id={parent_deck_id}&limit=100&bookmark={bookmark}"
+        )
+
+    return subdecks
+
+
+def get_existing_cards(subdecks):
+    existing_cards = set()
+
+    for subdeck in subdecks:
+        subdeck_id = subdecks[subdeck]
+        skill = subdeck
+        url = f"{BASE_URL}/cards?deck-id={subdeck_id}&limit=100"
+        previous_bookmark = None
+
+        while True:
+            response = make_api_request(url, method="GET")
+            if not response:
+                break
+
+            for card in response.get("docs", []):
+                fields = card.get("fields", {})
+                niqqud = fields.get("bqI7P9U8", {}).get("value")
+                if niqqud and skill:
+                    existing_cards.add((niqqud, skill))
+
+            print(f"Total existing cards: {len(existing_cards)}")
+
+            bookmark = response.get("bookmark")
+            if not bookmark or bookmark == previous_bookmark:
+                break
+            previous_bookmark = bookmark
+            url = f"{BASE_URL}/cards?deck-id={subdeck_id}&limit=100&bookmark={bookmark}"
+
+    return existing_cards
+
+
 def create_card(deck_id, fields):
     content = f"# {fields['SN2D3Qsv']['value']} ({fields['bqI7P9U8']['value']})\n\n{fields['AB9ZA1Qw']['value']}\n\n---\n\n{fields['BHGrp74l']['value']}\n\nGender: {fields['OubS6rNu']['value']}\nNumber: {fields['x2CPIOeh']['value']}\nForm: {fields['hQpDm4Xy']['value']}\nType: {fields['C0QicIIh']['value']}"
 
@@ -90,23 +147,42 @@ def main():
             print("Failed to create main deck. Exiting.")
             sys.exit(1)
 
-    skills_deck_id = create_deck("Skills", main_deck_id)
+    skills_deck_id = "bXzXrtLx"
     if not skills_deck_id:
+        skills_deck_id = create_deck("Skills", main_deck_id)
         print("Failed to create Skills deck. Exiting.")
         sys.exit(1)
+
+    # Fetch existing skill decks
+    existing_subdecks = get_subdecks(skills_deck_id)
+    skill_decks = {}
+    for deck in existing_subdecks:
+        deck_name_parts = deck["name"].split(". ", 1)
+        if len(deck_name_parts) == 2 and deck_name_parts[1] != "Notes":
+            skill_decks[deck_name_parts[1]] = deck["id"]
+
+    print(f"Found {len(skill_decks)} existing skill decks")
+    print(skill_decks)
+
+    existing_cards = get_existing_cards(skill_decks)
+    print(f"Found {len(existing_cards)} existing cards")
 
     with open(
         "Duolingo Hebrew Vocab COMPLETE - Words.csv", "r", encoding="utf-8"
     ) as csvfile:
         reader = csv.DictReader(csvfile)
-        skill_decks = {}
         previous_skill_number = None
         for index, row in enumerate(reader):
             skill = row["Skill"]
+            niqqud = row["Niqqud"]
+            print(skill, niqqud)
+            if (niqqud, skill) in existing_cards:
+                print(f"Card already exists: {skill} {niqqud}. Skipping.")
+                continue
 
             if skill not in skill_decks:
                 try:
-                    skill_number = int(row["שבדית"])  # Get the skill number
+                    skill_number = int(row["#"])
                     previous_skill_number = skill_number
                 except ValueError:
                     if previous_skill_number is None:
@@ -117,15 +193,17 @@ def main():
                         f"Using previous skill number {skill_number} for skill: {skill}"
                     )
 
-                # Create a new deck for each skill
-                skill_deck_id = create_deck(
-                    f"{skill_number}. {skill}", skills_deck_id, sort=skill_number
-                )
-                if skill_deck_id:
-                    skill_decks[skill] = skill_deck_id
-                else:
-                    print(f"Failed to create skill deck: {skill}. Skipping.")
-                    continue
+                # Create a new deck for each skill if it doesn't exist
+                deck_name = f"{skill_number}. {skill}"
+                if deck_name not in skill_decks:
+                    skill_deck_id = create_deck(
+                        deck_name, skills_deck_id, sort=skill_number
+                    )
+                    if skill_deck_id:
+                        skill_decks[skill] = skill_deck_id
+                    else:
+                        print(f"Failed to create skill deck: {skill}. Skipping.")
+                        continue
 
             fields = {
                 "SN2D3Qsv": {"id": "SN2D3Qsv", "value": row["Hebrew"]},

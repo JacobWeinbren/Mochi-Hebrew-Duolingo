@@ -123,7 +123,7 @@ def main():
     ) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            skill_order = int(row["שבדית"])
+            skill_order = int(row["#"])
             skill = row["Skill"]
             skill_key = f"{skill_order:02d}. {skill}"
 

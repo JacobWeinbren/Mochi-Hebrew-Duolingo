@@ -1,4 +1,4 @@
-שבדית,Skill,Hebrew,Translation,Gender,Form,Number,Type,Niqqud,Transliteration,Process,Notes
+#,Skill,Hebrew,Translation,Gender,Form,Number,Type,Niqqud,Transliteration,Process,Notes
 1,Letters 1,האם,Is…?,,,,Interrogative,הַאִם,ha’im,Checked,
 1,Letters 1,חלב,milk,Masculine,Absolute,Singular,Noun,חָלָב,ḥalav,Checked,
 1,Letters 1,בא,"comes (m,s)",Masculine,Present (A),Singular,Verb,בָּא,ba’,Checked,
@@ -91,7 +91,7 @@
 4,Common Phrases,מזל טוב,congratulations,,,,Phrase,מַזָּל טוֹב,mazzal tov,Checked,
 4,Common Phrases,סליחה,excuse me / sorry,Feminine,,Singular,Interjection,סְלִיחָה,sliḥa,Checked,
 4,Common Phrases,טל,Tal (name),Masculine,Absolute,Singular,Noun,טַל,tal,Checked,
-4,Common Phrases,אין בעד מה,you're welcome,,,,Phrase,אֵין בְּעַד מָה‎,’ein b‘ad ma‎,Checked,
+4,Common Phrases,אין בעד מה,you're welcome,,,,Phrase,אֵין בְּעַד מָה‎,’ein be‘ad ma‎,Checked,
 4,Common Phrases,אנגלית,English (language),Feminine,Absolute,Singular,Noun,אַנְגְּלִית,’anglit,Checked,
 4,Common Phrases,תודה רבה,thank you very much,,,,Phrase,תּוֹדָה רַבָּה‎,toda rabba‎,Checked,
 4,Common Phrases,בבקשה,please,Feminine,,Singular,Interjection,בְּבַקָּשָׁה,bvaqqasha,Checked,
@@ -192,6 +192,7 @@
 8,Food 1,שותות,"drinks (f,p)",Feminine,Present (A),Plural,Verb,שׁוֹתוֹת,shotot,Checked,
 8,Food 1,שותים,"drinks (m,p)",Masculine,Present (A),Plural,Verb,שׁוֹתִים,shotim,Checked,
 8,Food 1,סוכר,sugar,Masculine,Absolute,Singular,Noun,סֻכָּר,sukkar,Checked,
+8,Food 1,פרי,fruit,Masculine,Absolute,Singular,Noun,פְּרִי,pri,Checked,
 8,Food 1,פירות,fruits,Masculine,Absolute,Plural,Noun,פֵּרוֹת,perot,Checked,
 8,Food 1,ביצה,egg,Feminine,Absolute,Singular,Noun,בֵּיצָה,beitza,Checked,
 8,Food 1,קפה,coffee,Masculine,Absolute,Singular,Noun,קָפֶה,qafe,Checked,
@@ -206,6 +207,7 @@
 9,Animals,צבה,turtle (f),Feminine,Absolute,Singular,Noun,צַבָּהּ,tzabbah,Checked,
 9,Animals,חתול,cat (m),Masculine,Absolute,Singular,Noun,חָתוּל,ḥatul,Checked,
 9,Animals,פרה,cow,Feminine,Absolute,Singular,Noun,פָּרָה,para,Checked,
+9,Animals,נחש,snake,Masculine,Absolute,SIngular,Noun,נָחָשׁ,naḥash,Checked,
 9,Animals,תרנגולת,hen (chicken),Feminine,Absolute,Singular,Noun,תַּרְנְגֹלֶת,tarnᵉgolet,Checked,
 9,Animals,חיית מחמד,pet,Feminine,Absolute,Singular,Noun,חַיַּת מַחְמָד,ḥayyat maḥmad,Checked,
 9,Animals,חזיר,pig,Masculine,Absolute,Singular,Noun,חֲזִיר,ḥazir,Checked,
@@ -262,6 +264,7 @@
 10,Plurals,כלבים,dogs (m),Masculine,Absolute,Plural,Noun,כְּלָבִים,klavim,Checked,
 10,Plurals,תפוזים,oranges,Masculine,Absolute,Plural,Noun,תַּפּוּזִים,tappuzim,Checked,
 10,Plurals,ספרים,books,Masculine,Absolute,Plural,Noun,סְפָרִים,sfarim,Checked,
+10,Plurals,פיליים,elephants,Masculine,Absolute,Plural,Noun,פִּילִים,pilim,Checked,
 11,Possessives 1,שלי,my,,Construct,Singular,Phrase,שֶׁלִּי,shelli,Checked,
 11,Possessives 1,שלנו,ours,,Construct,Plural,Phrase,שֶׁלָּנוּ,shellanu,Checked,
 11,Possessives 1,שלכם,"yours (m,p)",Masculine,Construct,Plural,Phrase,שֶׁלָכֶם,shelakhem,Checked,
