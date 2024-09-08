@@ -102,9 +102,15 @@ def get_existing_cards(subdecks):
 
             for card in response.get("docs", []):
                 fields = card.get("fields", {})
-                niqqud = fields.get("bqI7P9U8", {}).get("value")
-                if niqqud and skill:
-                    existing_cards.add((niqqud, skill))
+                translation = fields.get("BHGrp74l", {}).get("value")
+                gender = fields.get("OubS6rNu", {}).get("value")
+                number = fields.get("x2CPIOeh", {}).get("value")
+                form = fields.get("hQpDm4Xy", {}).get("value")
+                card_type = fields.get("C0QicIIh", {}).get("value")
+                if translation and skill:
+                    existing_cards.add(
+                        (translation, skill, gender, number, form, card_type)
+                    )
 
             print(f"Total existing cards: {len(existing_cards)}")
 
@@ -174,10 +180,15 @@ def main():
         previous_skill_number = None
         for index, row in enumerate(reader):
             skill = row["Skill"]
-            niqqud = row["Niqqud"]
-            print(skill, niqqud)
-            if (niqqud, skill) in existing_cards:
-                print(f"Card already exists: {skill} {niqqud}. Skipping.")
+            translation = row["Translation"]
+            gender = row.get("Gender", "N/A")
+            number = row.get("Number", "N/A")
+            form = row.get("Form", "N/A")
+            card_type = row.get("Type", "N/A")
+            if (translation, skill, gender, number, form, card_type) in existing_cards:
+                print(
+                    f"Card already exists: {skill} {translation} ({gender}, {number}, {form}, {card_type}). Skipping."
+                )
                 continue
 
             if skill not in skill_decks:
@@ -213,7 +224,7 @@ def main():
                 "OubS6rNu": {"id": "OubS6rNu", "value": row.get("Gender", "N/A")},
                 "x2CPIOeh": {"id": "x2CPIOeh", "value": row.get("Number", "N/A")},
                 "hQpDm4Xy": {"id": "hQpDm4Xy", "value": row.get("Form", "N/A")},
-                "C0QicIIh": {"id": "C0QicIIh", "value": row["Type"]},
+                "C0QicIIh": {"id": "C0QicIIh", "value": row.get("Type", "N/A")},
             }
 
             card_id = create_card(skill_decks[skill], fields)
