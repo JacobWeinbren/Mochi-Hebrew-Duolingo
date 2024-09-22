@@ -186,9 +186,6 @@ def main():
             form = row.get("Form", "N/A")
             card_type = row.get("Type", "N/A")
             if (translation, skill, gender, number, form, card_type) in existing_cards:
-                print(
-                    f"Card already exists: {skill} {translation} ({gender}, {number}, {form}, {card_type}). Skipping."
-                )
                 continue
 
             if skill not in skill_decks:
