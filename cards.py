@@ -203,15 +203,15 @@ def main():
 
                 # Create a new deck for each skill if it doesn't exist
                 deck_name = f"{skill_number}. {skill}"
-                if deck_name not in skill_decks:
-                    skill_deck_id = create_deck(
-                        deck_name, skills_deck_id, sort=skill_number
-                    )
-                    if skill_deck_id:
-                        skill_decks[skill] = skill_deck_id
-                    else:
-                        print(f"Failed to create skill deck: {skill}. Skipping.")
-                        continue
+                skill_deck_id = create_deck(
+                    deck_name, skills_deck_id, sort=skill_number
+                )
+                if skill_deck_id:
+                    skill_decks[skill] = skill_deck_id
+                    print(f"Created new skill deck: {deck_name} (ID: {skill_deck_id})")
+                else:
+                    print(f"Failed to create skill deck: {skill}. Skipping.")
+                    continue
 
             fields = {
                 "SN2D3Qsv": {"id": "SN2D3Qsv", "value": row["Hebrew"]},

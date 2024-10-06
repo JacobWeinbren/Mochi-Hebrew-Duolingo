@@ -152,7 +152,7 @@
 7,Introduction to adjectives,טעימים,"tasty (m,p)",Masculine,,Plural,Adjective,טְעִימִים,te‘imim,Checked,
 7,Introduction to adjectives,שמחה,"happy (f,s)",Feminine,,Singular,Adjective,שְׂמֵחָה,smeḥa,Checked,
 7,Introduction to adjectives,עצובים,"sad / grieving (m,p)",Masculine,,Plural,Adjective,עֲצוּבִים,‘atzuvim,Checked,
-7,Introduction to adjectives,שמחות,"sad / grieving (m,p)",Feminine,,Plural,Adjective,שְׂמֵחוֹת,smeḥot,Checked,
+7,Introduction to adjectives,שמחות,"happy (f,p)",Feminine,,Plural,Adjective,שְׂמֵחוֹת,smeḥot,Checked,
 7,Introduction to adjectives,שמחים,"happy (m,p)",Masculine,,Plural,Adjective,שְׂמֵחִים,smeḥim,Checked,
 7,Introduction to adjectives,עצובות,"sad / grieving (f,p)",Feminine,,Plural,Adjective,עֲצוּבוֹת,‘atzuvot,Checked,
 7,Introduction to adjectives,עצובה,"sad / grieving (f,s)",Feminine,,Singular,Adjective,עֲצוּבָה,‘atzuva,Checked,
@@ -293,68 +293,72 @@
 12,Adjectives 1 - Basics,ארוך,"long (m,s)",Masculine,Absolute,Singular,Adjective,אָרֹךְ,’arokh,Checked,
 12,Adjectives 1 - Basics,ארוכה,"long (f,s)",Feminine,Absolute,Singular,Adjective,אֲרֻכָּה,’arukka,Checked,
 12,Adjectives 1 - Basics,ארוכים,"long (m,p)",Masculine,Absolute,Plural,Adjective,אֲרֻכִּים,’arukkim,Checked,
-12,Adjectives 1 - Basics,ארוכות,"long (m,f)",Feminine,Absolute,Plural,Adjective,אֲרֻכּוֹת,’arukkot,Checked,
+12,Adjectives 1 - Basics,ארוכות,"long (f,p)",Feminine,Absolute,Plural,Adjective,אֲרֻכּוֹת,’arukkot,Checked,
 12,Adjectives 1 - Basics,קצר,"short (m,s)",Masculine,Absolute,Singular,Adjective,קָצָר,qatzar,Checked,
-12,Adjectives 1 - Basics,קצרה,"short (f,s)",Feminine,Absolute,Singular,Adjective,קָצָרָה,qatzara,Checked,
-12,Adjectives 1 - Basics,קצרים,"short (m,p)",Masculine,Absolute,Plural,Adjective,קְצָרִים,qᵉtzarim,Checked,
-12,Adjectives 1 - Basics,קצרות,"short (f,p)",Feminine,Absolute,Plural,Adjective,קְצָרוֹת,qᵉtzarot,Checked,
+12,Adjectives 1 - Basics,קצרה,"short (f,s)",Feminine,Absolute,Singular,Adjective,קְצָרָה,qtzara,Checked,
+12,Adjectives 1 - Basics,קצרים,"short (m,p)",Masculine,Absolute,Plural,Adjective,קְצָרִים,qtzarim,Checked,
+12,Adjectives 1 - Basics,קצרות,"short (f,p)",Feminine,Absolute,Plural,Adjective,קְצָרוֹת,qtzarot,Checked,
 12,Adjectives 1 - Basics,גדול,"big, large (m,s)",Masculine,Absolute,Singular,Adjective,גָּדוֹל,gadol,Checked,
 12,Adjectives 1 - Basics,גדולה,"big, large (f,s)",Feminine,Absolute,Singular,Adjective,גְּדוֹלָה,gdola,Checked,
 12,Adjectives 1 - Basics,גדולים,"big, large (m,p)",Masculine,Absolute,Plural,Adjective,גְּדוֹלִים,gᵉdolim,Checked,
 12,Adjectives 1 - Basics,גדולות,"big, large (f,p)",Feminine,Absolute,Plural,Adjective,גְּדוֹלוֹת,gᵉdolot,Checked,
 12,Adjectives 1 - Basics,קטן,"small (m,s)",Masculine,Absolute,Singular,Adjective,קָטָן,qatan,Checked,
 12,Adjectives 1 - Basics,קטנה,"small (f,s)",Feminine,Absolute,Singular,Adjective,קְטַנָּה,qtanna,Checked,
-12,Adjectives 1 - Basics,קטנים,"small (m,p)",Masculine,Absolute,Plural,Adjective,קְטַנִּים,qᵉtannim,Checked,
-12,Adjectives 1 - Basics,קטנות,"small (f,p)",Feminine,Absolute,Plural,Adjective,קְטַנּוֹת,qᵉtannot,Checked,
+12,Adjectives 1 - Basics,קטנים,"small (m,p)",Masculine,Absolute,Plural,Adjective,קְטַנִּים,qtannim,Checked,
+12,Adjectives 1 - Basics,קטנות,"small (f,p)",Feminine,Absolute,Plural,Adjective,קְטַנּוֹת,qtannot,Checked,
 12,Adjectives 1 - Basics,רטוב,"wet (m,s)",Masculine,Absolute,Singular,Adjective,רָטוּב,ratuv,Checked,
-12,Adjectives 1 - Basics,רטובה,"wet (f,s)",Feminine,Absolute,Singular,Adjective,רְטֻבָּה,rᵉtubba,Checked,
-12,Adjectives 1 - Basics,רטובים,"wet (m,p)",Masculine,Absolute,Plural,Adjective,רְטֻבִּים,rᵉtubbim,Checked,
-12,Adjectives 1 - Basics,רטובות,"wet (f,p)",Feminine,Absolute,Plural,Adjective,רְטוּבוֹת,rᵉtuvot,Checked,
+12,Adjectives 1 - Basics,רטובה,"wet (f,s)",Feminine,Absolute,Singular,Adjective,רְטֻבָּה,retubba,Checked,
+12,Adjectives 1 - Basics,רטובים,"wet (m,p)",Masculine,Absolute,Plural,Adjective,רְטֻבִּים,retubbim,Checked,
+12,Adjectives 1 - Basics,רטובות,"wet (f,p)",Feminine,Absolute,Plural,Adjective,רְטוּבוֹת,retuvot,Checked,
 12,Adjectives 1 - Basics,יבש,"dry (m,s)",Masculine,Absolute,Singular,Adjective,יָבֵשׁ,yavesh,Checked,
-12,Adjectives 1 - Basics,יבשה,"dry (f,s)",Feminine,Absolute,Singular,Adjective,יְבֵשָׁה,yᵉvesha,Checked,
-12,Adjectives 1 - Basics,יבשים,"dry (m,p)",Masculine,Absolute,Plural,Adjective,יְבֵשִׁים,yᵉveshim,Checked,
-12,Adjectives 1 - Basics,יבשות,"dry (f,p)",Feminine,Absolute,Plural,Adjective,יְבֵשׁוֹת,yᵉveshot,Checked,
+12,Adjectives 1 - Basics,יבשה,"dry (f,s)",Feminine,Absolute,Singular,Adjective,יְבֵשָׁה,yevesha,Checked,
+12,Adjectives 1 - Basics,יבשים,"dry (m,p)",Masculine,Absolute,Plural,Adjective,יְבֵשִׁים,yeveshim,Checked,
+12,Adjectives 1 - Basics,יבשות,"dry (f,p)",Feminine,Absolute,Plural,Adjective,יְבֵשׁוֹת,yeveshot,Checked,
 12,Adjectives 1 - Basics,מלא,"full (m,s)",Masculine,Absolute,Singular,Adjective,מָלֵא,male’,Checked,"22829496, 28745829"
-12,Adjectives 1 - Basics,מלאה,"full (f,s)",Feminine,Absolute,Singular,Adjective,מְלֵאָה,mᵉle’a,Checked,"17014039, 32044335"
-12,Adjectives 1 - Basics,מלאים,"full (m,p)",Masculine,Absolute,Plural,Adjective,מְלֵאִים,mᵉle’im,Checked,16313816
-12,Adjectives 1 - Basics,מלאות,"full (f,p)",Feminine,Absolute,Plural,Adjective,מְלֵאוֹת,mᵉle’ot,Checked,"16405331, 25348380"
+12,Adjectives 1 - Basics,מלאה,"full (f,s)",Feminine,Absolute,Singular,Adjective,מְלֵאָה,mele’a,Checked,"17014039, 32044335"
+12,Adjectives 1 - Basics,מלאים,"full (m,p)",Masculine,Absolute,Plural,Adjective,מְלֵאִים,mele’im,Checked,16313816
+12,Adjectives 1 - Basics,מלאות,"full (f,p)",Feminine,Absolute,Plural,Adjective,מְלֵאוֹת,mele’ot,Checked,"16405331, 25348380"
 12,Adjectives 1 - Basics,ריק,"empty (m,s)",Masculine,Absolute,Singular,Adjective,רֵיק,reiq,Checked,"27804889, 24554490"
 12,Adjectives 1 - Basics,ריקה,"empty (f,s)",Feminine,Absolute,Singular,Adjective,רֵיקָה,reiqa,Checked,"16482169, 16380220"
 12,Adjectives 1 - Basics,ריקים,"empty (m,p)",Masculine,Absolute,Plural,Adjective,רֵיקִים,reiqim,Checked,17004990
 12,Adjectives 1 - Basics,ריקות,"empty (f,p)",Feminine,Absolute,Plural,Adjective,רֵיקוֹת,reiqot,Checked,17577026
 12,Adjectives 1 - Basics,מהיר,"fast (m,s)",Masculine,Absolute,Singular,Adjective,מָהִיר,mahir,Checked,
-12,Adjectives 1 - Basics,מהירה,"fast (f,s)",Feminine,Absolute,Singular,Adjective,מְהִירָה,mᵉhira,Checked,
-12,Adjectives 1 - Basics,מהירים,"fast (m,p)",Masculine,Absolute,Plural,Adjective,מְהִירִים,mᵉhirim,Checked,
-12,Adjectives 1 - Basics,מהירוֹת,"fast (f,p)",Feminine,Absolute,Plural,Adjective,מְהִירוֹת,mᵉhirot,Checked,
+12,Adjectives 1 - Basics,מהירה,"fast (f,s)",Feminine,Absolute,Singular,Adjective,מְהִירָה,mehira,Checked,
+12,Adjectives 1 - Basics,מהירים,"fast (m,p)",Masculine,Absolute,Plural,Adjective,מְהִירִים,mehirim,Checked,
+12,Adjectives 1 - Basics,מהירוֹת,"fast (f,p)",Feminine,Absolute,Plural,Adjective,מְהִירוֹת,mehirot,Checked,
 12,Adjectives 1 - Basics,איטי,"slow (m,s)",Masculine,Absolute,Singular,Adjective,אִטִּי,’itti,Checked,
 12,Adjectives 1 - Basics,איטית,"slow (f,s)",Feminine,Absolute,Singular,Adjective,אִטִּית,’ittit,Checked,
 12,Adjectives 1 - Basics,איטיים,"slow (m,p)",Masculine,Absolute,Plural,Adjective,אִיטִיִים,’itiyim,Checked,
 12,Adjectives 1 - Basics,איטיות,"slow (f,p)",Feminine,Absolute,Plural,Adjective,אִיטִיּוֹת,’itiyyot,Checked,
 12,Adjectives 1 - Basics,גבוה,"tall, high (m,s)",Masculine,Absolute,Singular,Adjective,גָּבֹהַּ,gavoah,Checked,
-12,Adjectives 1 - Basics,גבוהה,"tall, high (f,s)",Feminine,Absolute,Singular,Adjective,גְּבֹהָה,gᵉvoha,Checked,
+12,Adjectives 1 - Basics,גבוהה,"tall, high (f,s)",Feminine,Absolute,Singular,Adjective,גְּבֹהָה,gvoha,Checked,
 12,Adjectives 1 - Basics,גבוהים,"tall, high (m,p)",Masculine,Absolute,Plural,Adjective,גְּבֹהִים,gvohim,Checked,
-12,Adjectives 1 - Basics,גבוהות,"tall, high (f,p)",Feminine,Absolute,Plural,Adjective,גְּבֹהוֹת,gᵉvohot,Checked,
+12,Adjectives 1 - Basics,גבוהות,"tall, high (f,p)",Feminine,Absolute,Plural,Adjective,גְּבֹהוֹת,gvohot,Checked,
 12,Adjectives 1 - Basics,נמוך,"low, short (m,s)",Masculine,Absolute,Singular,Adjective,נָמוּךְ,namukh,Checked,"36939032, 23078914"
-12,Adjectives 1 - Basics,נמוכה,"low, short (f,s)",Feminine,Absolute,Singular,Adjective,נָמוּכָה,namukha,Checked,17630297
-12,Adjectives 1 - Basics,נמוכים,"low, short (m,p)",Masculine,Absolute,Plural,Adjective,נְמוּכִים,nᵉmukhim,Checked,
-12,Adjectives 1 - Basics,נמוכות,"low, short (f,p)",Feminine,Absolute,Plural,Adjective,נְמוּכוֹת,nᵉmukhot,Checked,29414252
+12,Adjectives 1 - Basics,נמוכה,"low, short (f,s)",Feminine,Absolute,Singular,Adjective,נָמוּכָה,nemukha,Checked,17630297
+12,Adjectives 1 - Basics,נמוכים,"low, short (m,p)",Masculine,Absolute,Plural,Adjective,נְמוּכִים,nemukhim,Checked,
+12,Adjectives 1 - Basics,נמוכות,"low, short (f,p)",Feminine,Absolute,Plural,Adjective,נְמוּכוֹת,nemukhot,Checked,29414252
 12,Adjectives 1 - Basics,רחוק,"far, distant (m,s)",Masculine,Absolute,Singular,Adjective,רָחוֹק,raḥoq,Checked,"19091504, 22637437, 20655361"
-12,Adjectives 1 - Basics,רחוקה,"far, distant (f,s)",Feminine,Absolute,Singular,Adjective,רְחוֹקָה,rᵉḥoqa,Checked,19425768
-12,Adjectives 1 - Basics,רחוקים,"far, distant (m,p)",Masculine,Absolute,Plural,Adjective,רְחוֹקִים,rᵉḥoqim,Checked,27431355
-12,Adjectives 1 - Basics,רחוקות,"far, distant (f,p)",Feminine,Absolute,Plural,Adjective,רְחוֹקוֹת,rᵉḥoqot,Checked,"16293913, 17221921"
+12,Adjectives 1 - Basics,רחוקה,"far, distant (f,s)",Feminine,Absolute,Singular,Adjective,רְחוֹקָה,reḥoqa,Checked,19425768
+12,Adjectives 1 - Basics,רחוקים,"far, distant (m,p)",Masculine,Absolute,Plural,Adjective,רְחוֹקִים,reḥoqim,Checked,27431355
+12,Adjectives 1 - Basics,רחוקות,"far, distant (f,p)",Feminine,Absolute,Plural,Adjective,רְחוֹקוֹת,reḥoqot,Checked,"16293913, 17221921"
 12,Adjectives 1 - Basics,קרוב,"close, near (m,s)",Masculine,Absolute,Singular,Adjective,קָרוֹב,qarov,Checked,"35130179, 19235551"
-12,Adjectives 1 - Basics,קרובה,"close, near (f,s)",Feminine,Absolute,Singular,Adjective,קְרוֹבָה,qᵉrova,Checked,"34395049, 19278184"
+12,Adjectives 1 - Basics,קרובה,"close, near (f,s)",Feminine,Absolute,Singular,Adjective,קְרוֹבָה,qrova,Checked,"34395049, 19278184"
 12,Adjectives 1 - Basics,קרובים,"close, near (m,p)",Masculine,Absolute,Plural,Adjective,קְרוֹבִים,qrovim,Checked,"18134491, 17392383"
-12,Adjectives 1 - Basics,קרובות,"close, near (f,p)",Feminine,Absolute,Plural,Adjective,קְרוֹבוֹת,qᵉrovot,Checked,24188783
+12,Adjectives 1 - Basics,קרובות,"close, near (f,p)",Feminine,Absolute,Plural,Adjective,קְרוֹבוֹת,qrovot,Checked,24188783
 12,Adjectives 1 - Basics,חדש,"new (m,s)",Masculine,Absolute,Singular,Adjective,חָדָשׁ,ḥadash,Checked,"16265984, 19159157"
 12,Adjectives 1 - Basics,חדשה,"new (f,s)",Feminine,Absolute,Singular,Adjective,חָדָשָׁה,ḥadasha,Checked,"25038892, 32354615, 26503593"
 12,Adjectives 1 - Basics,חדשים,"new (m,p)",Masculine,Absolute,Plural,Adjective,חֲדָשִׁים,ḥadashim,Checked,"22437347, 27376074"
 12,Adjectives 1 - Basics,חדשות,"new (f,p)",Feminine,Absolute,Plural,Adjective,חֲדָשׁוֹת,ḥadashot,Checked,"19486596, 19919861"
+12,Adjectives 1 - Basics,ישן,"sleeps, (is) sleeping (m,s)",Masculine,Absolute,Singular,Verb,יָשֵׁן,yashen,Checked,
+12,Adjectives 1 - Basics,ישנה,"sleeps, (is) sleeping (f,s)",Feminine,Absolute,Singular,Verb,יְשֵׁנָה,yeshena,Checked,
+12,Adjectives 1 - Basics,ישנים,"sleeps, (is) sleeping (m,p)",Masculine,Absolute,Plural,Verb,יְשֵׁנִים,yeshenim,Checked,
+12,Adjectives 1 - Basics,ישנות,"sleeps, (is) sleeping (f,p)",Feminine,Absolute,Plural,Verb,יְשֵׁנוֹת,yeshenot,Checked,
 13,Direct Object,אתכן,"you (f,p)",Feminine,Construct,Plural,Pronoun,אֶתְכֶן,’etkhen,Checked,
 13,Direct Object,אותנו,us,,Construct,Plural,Pronoun,אוֹתָנוּ,’otanu,Checked,
 13,Direct Object,אותן,"them (f,p)",Feminine,Construct,Plural,Pronoun,אוֹתָן,’otan,Checked,
 13,Direct Object,אותךָ,"you (m,s)",Masculine,Construct,Singular,Pronoun,אוֹתְךָ,’otkha,Checked,
-13,Direct Object,אותךְ,"you (f,s)",Feminine,Construct,Singular,Pronoun,אוֹתְךְ,’otkhᵉ,Checked,
+13,Direct Object,אותךְ,"you (f,s)",Feminine,Construct,Singular,Pronoun,אוֹתָךְ,otach,Checked,
 13,Direct Object,אתכם,"you (m,p)",Masculine,Construct,Plural,Pronoun,אֶתְכֶם,’etkhem,Checked,
 13,Direct Object,אותו,"him (m,s)",Masculine,Construct,Singular,Pronoun,אוֹתוֹ,’oto,Checked,
 13,Direct Object,אותי,me,,Construct,Singular,Pronoun,אוֹתִי,’oti,Checked,
@@ -362,14 +366,14 @@
 13,Direct Object,אותם,"them (m,p)",Masculine,Construct,Plural,Pronoun,אוֹתָם,’otam,Checked,
 13,Direct Object,רואות,"sees (f,p)",Feminine,Present (A),Plural,Verb,רוֹאוֹת,ro’ot,Checked,
 13,Direct Object,רואים,"sees (m,p)",Masculine,Present (A),Plural,Verb,רוֹאִים,ro’im,Checked,
-13,Direct Object,צריך,"need, should, must (m,s)",Masculine,Present (A),Singular,Adjective,צָרִיךְ,tzariykh,Checked,
-13,Direct Object,צריכה,"need, should, must (f,s)",Feminine,Present (A),Singular,Adjective,צְרִיכָה,tzrikha,Checked,
-13,Direct Object,צריכים,"need, should, must (m,p)",Masculine,Present (A),Plural,Adjective,צְרִיכִים,tzᵉrikhim,Checked,24016101
-13,Direct Object,צריכות,"need, should, must (f,p)",Feminine,Present (A),Plural,Adjective,צְרִיכוֹת,tzᵉrikhot,Checked,"34072785, 16988089"
+13,Direct Object,צריך,"need, should, must (m,s)",Masculine,Present (A),Singular,Adjective,צָרִיךְ,tzarich,Checked,
+13,Direct Object,צריכה,"need, should, must (f,s)",Feminine,Present (A),Singular,Adjective,צְרִיכָה,tzricha,Checked,
+13,Direct Object,צריכים,"need, should, must (m,p)",Masculine,Present (A),Plural,Adjective,צְרִיכִים,tzrichim,Checked,24016101
+13,Direct Object,צריכות,"need, should, must (f,p)",Feminine,Present (A),Plural,Adjective,צְרִיכוֹת,tzrichot,Checked,"34072785, 16988089"
 14,Food 2,חריפים,"hot, spicy (m,p)",Masculine,,Plural,Adjective,חֲרִיפִים,ḥarifim,Checked,
 14,Food 2,כף,spoon,Feminine,Absolute,Singular,Noun,כַּף,kaf,Checked,
 14,Food 2,גזרים,"carrots, pieces",Masculine,Absolute,Plural,Noun,גְּזָרִים,gzarim,Checked,
-14,Food 2,ירקות,vegetables,Masculine,Absolute,Plural,Noun,יְרָקוֹת,yᵉraqot,Checked,
+14,Food 2,ירקות,vegetables,Masculine,Absolute,Plural,Noun,יְרָקוֹת,yerakot,Checked,
 14,Food 2,קערה,bowl,Feminine,Absolute,Singular,Noun,קְעָרָה,q‘ara,Checked,
 14,Food 2,צמאה,"thirsty (f,s)",Feminine,Present (A),Singular,Verb,צְמֵאָה,tzme’a,Checked,
 14,Food 2,סכין,"knife, blade",Masculine,Absolute,Singular,Noun,סַכִּין,sakkin,Checked,
@@ -386,7 +390,7 @@
 14,Food 2,אבוקדו,avocado,Masculine,Absolute,Singular,Noun,אָבוֹקָדוֹ,’avoqado,Checked,
 14,Food 2,ענב,grape,Masculine,Absolute,Singular,Noun,עֵנָב,‘anav,Checked,
 14,Food 2,דובדבן,cherry,Masculine,Absolute,Singular,Noun,דֻּבְדְּבָן,duvdᵉvan,Checked,
-14,Food 2,דובדבנים,cherries,Masculine,Absolute,Plural,Noun,דֻּבְדְּבָנִים,duvdᵉvanim,Checked,
+14,Food 2,דובדבנים,cherries,Masculine,Absolute,Plural,Noun,דֻּבְדְּבָנִים,duvdevanim,Checked,
 14,Food 2,מסטיק,gum,Masculine,Absolute,Singular,Noun,מַסְטִיק,mastiq,Checked,
 14,Food 2,מסטיקים,gums,Masculine,Absolute,Plural,Noun,מַסְטִיקִים,mastiqim,Checked,
 14,Food 2,משקה,"beverage, drink",Masculine,Absolute,Singular,Noun,מַשְׁקֶה,mashqe,Checked,
@@ -400,7 +404,7 @@
 14,Food 2,ריבה,jam,Feminine,Absolute,Singular,Noun,רִבָּה,ribba,Checked,
 14,Food 2,בצל,onion,Masculine,Absolute,Singular,Noun,בָּצָל,batzal,Checked,
 14,Food 2,בצלים,onions,Masculine,Absolute,Plural,Noun,בְּצָלִים,btzalim,Checked,
-14,Food 2,מלפפון,cucumber,Masculine,Absolute,Singular,Noun,מְלָפְפוֹן,mᵉlaffon,Checked,
+14,Food 2,מלפפון,cucumber,Masculine,Absolute,Singular,Noun,מְלָפְפוֹן,melafefon,Checked,
 14,Food 2,מלוחה,"salty (f,s)",Feminine,,Singular,Adjective,מְלוּחָה,mᵉluḥa,Checked,
 14,Food 2,גזר,"carrot, piece",Masculine,Absolute,Singular,Noun,גֶּזֶר,gezer,Checked,
 14,Food 2,אופֶה,"bakes (f,s)",Masculine,Present (A),Singular,Verb,אוֹפֶה,’ofe,Checked,"17027371, 17475468"
@@ -411,7 +415,7 @@
 14,Food 2,חריף,"hot, spicy (m,s)",Masculine,,Singular,Adjective,חָרִיף,ḥarif,Checked,
 14,Food 2,מטבח,"kitchen, cuisine",Masculine,Absolute,Singular,Noun,מִטְבָּח,mitbaḥ,Checked,
 14,Food 2,מלוח,"salty (m,s)",Masculine,,Singular,Adjective,מָלוּחַ,maluaḥ,Checked,
-14,Food 2,מלפפונים,cucumbers,Masculine,Absolute,Plural,Noun,מְלָפְפוֹנִים,mᵉlaffonim,Checked,
+14,Food 2,מלפפונים,cucumbers,Masculine,Absolute,Plural,Noun,מְלָפְפוֹנִים,melafefonim,Checked,
 14,Food 2,מתכונים,recipes,Masculine,Absolute,Plural,Noun,מַתְכּוֹנִים,matkonim,Checked,
 14,Food 2,פלפל,"pepper, capsicum",Masculine,Absolute,Singular,Noun,פִּלְפֵּל,pilpel,Checked,
 14,Food 2,מתכון,recipe,Masculine,Absolute,Singular,Noun,מַתְכּוֹן,matkon,Checked,
@@ -429,7 +433,7 @@
 14,Food 2,צמאים,"thirsty (m,p)",Masculine,Present (A),Plural,Verb,צְמֵאִים,tzme’im,Checked,
 14,Food 2,מבשלים,"cooks, boils (m,p)",Masculine,Present (A),Plural,Verb,מְבַשְּׁלִים,mᵉvashlim,Checked,
 14,Food 2,מפיות,napkins,Feminine,Absolute,Plural,Noun,מַפִּיּוֹת,mappiyyot,Checked,
-14,Food 2,מבשל,"cooks, boils (m,s)",Masculine,Present (A),Singular,Verb,מְבַשֵּׁל,mᵉvashshel,Checked,
+14,Food 2,מבשל,"cooks, boils (m,s)",Masculine,Present (A),Singular,Verb,מְבַשֵּׁל,mevashel,Checked,
 14,Food 2,צמחוניים,"vegetarians (m,s)",Masculine,,Plural,Adjective,צְמַחוֹנִיִּים,tzmaḥoniyyim,Checked,
 14,Food 2,צמחוני,"vegetarian (m,s)",Masculine,,Singular,Adjective,צִמְחוֹנִי,tzimḥoni,Checked,
 14,Food 2,כוס,"cup, glass",Feminine,Absolute,Singular,Noun,כּוֹס,kos,Checked,
